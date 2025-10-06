@@ -10,8 +10,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket  = "tyoko-devops-test"
-    key     = "tyoko-dev.tfstate"
+    bucket  = "tastylog-tfstate-bucket-yokoyama"
+    key     = "tastylog-dev.tfstate"
     region  = "ap-northeast-1"
     profile = "terraform"
   }
